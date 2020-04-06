@@ -1,0 +1,1 @@
+{"virtualbox":{"/var/www/html/":{"create":true,"guestpath":"/var/www/html","hostpath":"C:/Modul300/LocalRepository/M300-Services/LB02/VM/revProxy","disabled":false,"__vagrantfile":true}}}
