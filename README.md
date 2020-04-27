@@ -4,16 +4,17 @@
 
 Da GitHub eine Linuxbasierte Shell ist, sind auch die Befehle wie in einer Linux Shell. Hier sind die für mich wichtigsten Befehle:
 
-* chmod --> Berechtigungen wechseln
-* chgroup --> 		Gruppe wechseln
-* chown	-->	Owner wechseln
-
-* mkdir	-->	Erstellt ein Verzeichnis
-* mkdir/home/X -->	Erstellt ein Verzeichnis unter dem Pfad X
-* mkdir –p X --> 		Erstellt ganzer verzeichnisbaum X
-* cd --> Wechselt in ein (Unter)Verzeichnis
-* cd –L	-->	cd folgt der logischen Verzeichnisstruktur (Standard)
-* cd –P	-->	cd folgt der physischen Verzeichnisstruktur
+| Befehl | Auswirkung |
+| --- | --- |
+| chmod | Berechtigungen wechseln |
+| chgroup | Gruppe wechseln |
+| chown	| Owner wechseln |
+| mkdir	| Erstellt ein Verzeichnis |
+| mkdir/home/X | Erstellt ein Verzeichnis unter dem Pfad X | 
+| mkdir –p X | Erstellt ganzer verzeichnisbaum X | 
+| cd | Wechselt in ein (Unter)Verzeichnis |
+| cd –L	| cd folgt der logischen Verzeichnisstruktur |
+| cd –P	| cd folgt der physischen Verzeichnisstruktur |
 
 ### Git-Befehle
 
