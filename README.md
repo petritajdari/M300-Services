@@ -1,6 +1,6 @@
 # M300-Services
 
-##GitHub
+## GitHub
 
 Da GitHub eine Linuxbasierte Shell ist, sind auch die Befehle wie in einer Linux Shell. Hier sind die für mich wichtigsten Befehle:
 
