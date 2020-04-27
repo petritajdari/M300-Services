@@ -71,3 +71,9 @@ im Abschnitt provision Abschnitt müssen folgende Zeilen eingetragen werden.
 ### 3. Schritt
 Im selben Abschnitt müssen noch folgende Zeilen eingetragen werden, für den reverse Proxy
 ![Bild zu proxy aktivierung](https://github.com/petritajdari/M300-Services/blob/master/Images/proxy.PNG "Bild zu proxy aktivierung")
+
+## Wissenszuwachs
+Ich habe in diesem Modul sehr viel gelernt. ich habe eine neue Art von Virtualisierung mit Vagrant templates kennengelernt und dazu noch, wie man trotzdem die Sicherheit gewährleisten kann. Abgesehen von der FAchkompetenz, habe ich auch in der Methodenkompetenz viel gelernt. In diesem Modul habe ich das erste mal mit eine Git Repository gearbeitet und so erfahren, welche vorteile das haben kann, sein wissen mit der Community zu teilen den ich selbst habe auch für einige Schwierigkeiten die ich hatte in Git Repositorys von anderen Leuten Hilfe gefunden.
+
+## Reflexion
+Ich konnte in der LB02 sehr viel lernen. Zu Beginn jedoch, war praktisch alles neu, die Arbeitsmethodik, die Tools, selbst die Art des dokumentierens. deshalb habe ich mich sehr vor dem Auftrag gescheut und hatte somit einen holprigen start. Ich habe den Fehler gemacht, dass ich einfach der Anleitung gefolgt bin und mir dabei nicht viel gedacht geschweige den Dokumentiert habe. Ich dachte das wäre bloss der Einstieg, um die neue Umgebung kennenzulernen und der Richtige Auftrag käme erst. somit musste ich später alles nachdokumentieren. In Zukunft werde ich von Beginn an dokumentieren, was ich tue, egal ob es dem Auftrag entspricht oder noicht, den alles was ich neu lerne ist hilfreich, wenn es in der Dokumentation steht.
