@@ -44,3 +44,13 @@ Wenn man also eine Vagrant VM erstellen will geht man wie folgt vor.
 ```
 vagrant init ubuntu/xenial64  
 ```
+nun wurde in dem Verzwichniss ein Vagrant file erstellt. VAgrant Files sind in in 5 Abschnitte unterteile:
+|File Abschnitt| Bedeutung |
+|--- | --- | --- |
+| config.vm.box | Betriebssystem |
+| Config.vm.network | Sämtliche Netzwerkeinstellungen (IP-Adrese usw.) |
+| Config.vm.provider | Provider (z.B. VirtualBox) |
+| Config.vm.synced_folder | wie man auf bestimmte DAteien der VM vom HOst aus zugreifen will |
+|  Config.vm.provision | automatisiert aufsetzen / Befehlsreihenfolge |
+
+1. 
