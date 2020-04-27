@@ -58,3 +58,13 @@ nun wurde in dem Verzwichniss ein Vagrant file erstellt. Vagrant Files sind in i
 $ vagrant up
 $ vagrant vagrant ssh
 ```
+
+## Systemsicherheit
+Um die IT Sicherheit sicherzustellen wird eine Firewall und ein reverseproxy erstellt.
+
+### 1. Schritt
+Wir bearbeiten das Vagrantfile. Um einiges zu vereinfachen und damit wir nicht für alles andere editoren verwenden, öffnen wir das File in Visual Studio Code.
+
+### 2. Schritt
+im Abschnitt provision Abschnitt müssen folgende Zeilen eingetragen werden.
+![Bild zu ufw Rules](https://github.com/petritajdari/M300-Services/blob/master/Images/ufw_rules.PNG "Bild zu ufw Rules")
