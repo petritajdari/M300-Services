@@ -71,6 +71,16 @@ im Abschnitt provision Abschnitt müssen folgende Zeilen eingetragen werden.
 ### 3. Schritt
 Im selben Abschnitt müssen noch folgende Zeilen eingetragen werden, für den reverse Proxy
 ![Bild zu proxy aktivierung](https://github.com/petritajdari/M300-Services/blob/master/Images/proxy.PNG "Bild zu proxy aktivierung")
+### Benutzer und Berechtigungen
+Ein sehr wichtiger ASpekt wenn es um die Sicherheit geht, sind die Benutze/ Gruppen und ihre Berechtigungen. Hier ist eine Auflistung mit Befehlen, welche Hilfreich sein könnten.
+```
+chmod       Berechtigungen wechseln
+chgroup     Gruppe wechseln
+chown       Owner wechseln
+useradd     erstellt einen Benutzer
+passwd      ändert das passwort eines Benutzers
+groupadd    erstellt eine Benutzergruppe
+```
 
 ## Wissenszuwachs
 Ich habe in diesem Modul sehr viel gelernt. ich habe eine neue Art von Virtualisierung mit Vagrant templates kennengelernt und dazu noch, wie man trotzdem die Sicherheit gewährleisten kann. Abgesehen von der FAchkompetenz, habe ich auch in der Methodenkompetenz viel gelernt. In diesem Modul habe ich das erste mal mit eine Git Repository gearbeitet und so erfahren, welche vorteile das haben kann, sein wissen mit der Community zu teilen den ich selbst habe auch für einige Schwierigkeiten die ich hatte in Git Repositorys von anderen Leuten Hilfe gefunden.
