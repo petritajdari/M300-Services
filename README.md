@@ -36,3 +36,11 @@ Die wichtigsten Vagrant Befehle:
 * vagrant port:       Zeigt die Weitergeleiteten Ports der VM an
 * vagrant halt:       Stoppt die laufende Virtuelle Maschine
 * vagrant destroy:    Stoppt die Virtuelle Maschine und zerstört sie.
+
+Wenn man also eine Vagrant VM erstellen will geht man wie folgt vor.
+
+1. Ordner für die VM erstellen
+2. wenn man sich in diesem Ordner befindet muss ein Vagrantfile erzeugtwerden z.B. mit dem Befehl 
+```
+vagrant init ubuntu/xenial64  
+```
