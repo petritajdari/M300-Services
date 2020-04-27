@@ -68,3 +68,6 @@ Wir bearbeiten das Vagrantfile. Um einiges zu vereinfachen und damit wir nicht f
 ### 2. Schritt
 im Abschnitt provision Abschnitt müssen folgende Zeilen eingetragen werden.
 ![Bild zu ufw Rules](https://github.com/petritajdari/M300-Services/blob/master/Images/ufw_rules.PNG "Bild zu ufw Rules")
+### 3. Schritt
+Im selben Abschnitt müssen noch folgende Zeilen eingetragen werden, für den reverse Proxy
+![Bild zu proxy aktivierung](https://github.com/petritajdari/M300-Services/blob/master/Images/proxy.PNG "Bild zu proxy aktivierung")

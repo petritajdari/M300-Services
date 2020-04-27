@@ -27,7 +27,7 @@ Vagrant.configure("2") do |config|
   # Installieren des Webservers, die Firewall und den Proxy
   sudo apt-get install apache2 -y
   sudo apt-get install ufw -y
-  sudo apt-get install libxml2-dev -y
+  
   # Vorkonfiguration für die MYSQL-Installation und deren Installation
   sudo debconf-set-selections <<< "mysql-server mysql-server/root_password password #{mysql_password}"
   sudo debconf-set-selections <<< "mysql-server mysql-server/root_password_again password #{mysql_password}"
@@ -44,9 +44,12 @@ Vagrant.configure("2") do |config|
   sudo ufw allow from any to any port 80
   sudo ufw enable -y
   # Proxymodule aktivieren
+  sudo apt-get install libapache2-mod-proxy-html -y
+  sudo apt-get install libxml2-dev -y
   sudo a2enmod proxy
   sudo a2enmod proxy_html
   sudo a2enmod proxy_http
+  sudo service apache2 restart
   #Proxykonfiguration
   echo "echo '<VirtualHost *:80>' >> /etc/apache2/sites-available/proxy.conf" | sudo bash
   echo "echo '	ServerName mysql-m300' >> /etc/apache2/sites-available/proxy.conf" | sudo bash
