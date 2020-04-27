@@ -44,7 +44,7 @@ Wenn man also eine Vagrant VM erstellen will geht man wie folgt vor.
 ```
 vagrant init ubuntu/xenial64  
 ```
-nun wurde in dem Verzwichniss ein Vagrant file erstellt. VAgrant Files sind in in 5 Abschnitte unterteile:
+nun wurde in dem Verzwichniss ein Vagrant file erstellt. Vagrant Files sind in in 5 Abschnitte unterteile:
 | File Abschnitt| Bedeutung |
 | --- | --- |
 | config.vm.box | Betriebssystem |
@@ -53,4 +53,8 @@ nun wurde in dem Verzwichniss ein Vagrant file erstellt. VAgrant Files sind in i
 | Config.vm.synced_folder | wie man auf bestimmte DAteien der VM vom HOst aus zugreifen will |
 |  Config.vm.provision | automatisiert aufsetzen / Befehlsreihenfolge |
 
-1. 
+3. Nun kann man die VM starten und eine ssh Verbindung herstellen um mit der VM zu arbeiten
+```
+$ vagrant up
+$ vagrant vagrant ssh
+```
