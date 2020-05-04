@@ -1,5 +1,6 @@
 # M300-Services
 
+# LB02
 ## Gitbash
 
 Da GitHub eine Linuxbasierte Shell ist, sind auch die Befehle wie in einer Linux Shell. Hier sind die für mich wichtigsten Befehle:
@@ -92,3 +93,6 @@ Ich habe in diesem Modul sehr viel gelernt. ich habe eine neue Art von Virtualis
 
 ## Reflexion
 Ich konnte in der LB02 sehr viel lernen. Zu Beginn jedoch, war praktisch alles neu, die Arbeitsmethodik, die Tools, selbst die Art des dokumentierens. deshalb habe ich mich sehr vor dem Auftrag gescheut und hatte somit einen holprigen start. Ich habe den Fehler gemacht, dass ich einfach der Anleitung gefolgt bin und mir dabei nicht viel gedacht geschweige den Dokumentiert habe. Ich dachte das wäre bloss der Einstieg, um die neue Umgebung kennenzulernen und der Richtige Auftrag käme erst. somit musste ich später alles nachdokumentieren. In Zukunft werde ich von Beginn an dokumentieren, was ich tue, egal ob es dem Auftrag entspricht oder noicht, den alles was ich neu lerne ist hilfreich, wenn es in der Dokumentation steht.
+
+# LB03
+Docker installieren: https://docs.docker.com/engine/install/ubuntu/
