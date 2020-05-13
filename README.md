@@ -98,6 +98,9 @@ Ich konnte in der LB02 sehr viel lernen. Zu Beginn jedoch, war praktisch alles n
 Für diese Arbeit habe ich eine Ubuntu VM erstellt. Anhand folgender Anleitung habe ich Docker installiert: https://docs.docker.com/engine/install/ubuntu/
 
 Um die Installation zu testen, kann man folgenden Befehl ausfüren. Anhand der Ausgabe erkennt man ob die Installation erfolgreich war.
+```
+Docker run hello-world
+```
 ![Docker test](https://github.com/petritajdari/M300-Services/blob/master/Images/Docker_Hello-World.PNG "Bild zu Docker run hello-world")
 
 ## Container und Images
