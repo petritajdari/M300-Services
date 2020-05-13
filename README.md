@@ -111,7 +111,7 @@ docker container run -d -p 8081:80 --name MyApache httpd
 docker container run -it -p 8082:80 mysql
 
 ```
-Um die die Funktionalität zu testen, kann man im Browser http://localhost:[port] suchen. wenn die Installation erfolgreich war, sieht man die webserver.
+Um die die Funktionalität zu testen, kann man im Browser http://localhost:[port] suchen. wenn die Installation erfolgreich war, sieht man die webserver. Ich habe die den Commandline Browser ELinks verwendet.
 ![Apache container Test](https://github.com/petritajdari/M300-Services/blob/master/Images/Docker_Apache-test.PNG "Bild zu Apache container Test")
 
 Hier ist eine Auflistung, von Docker Befehlen welche häufig verwendet werden:
